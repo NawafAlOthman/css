@@ -22,3 +22,7 @@ font-style: italic;
 body {
     background-color: lavenderblush;
 }
+
+div.bold{
+    background-color: mediumaquamarine;
+}
