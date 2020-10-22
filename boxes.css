@@ -1,0 +1,16 @@
+.outer-box{
+    width: 200px;
+    height: 300px;
+    /*padding: 20px; /*adds 20px to all sides, so now we have a height of 340 since its adding 20 up and down, and a width of 240 since its adding 20 left and right*/
+    /* padding: 20px 50px; adds 20 to height and 50 to width   */
+     padding: 10px 50px 100px 20px; /*--> adds 10 to the top then goes right ,bottom then left. */ 
+    /*text-align: center;  alligns the text and makes it centered*/
+    border: 5px solid black;
+    margin: 20px ;
+}
+
+#special-div{
+    border-bottom: 20px dotted yellowgreen;
+    padding-left: 75px;
+    margin-top: 100px;
+}
