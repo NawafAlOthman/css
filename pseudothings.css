@@ -1,3 +1,33 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+/* li is list item and we are giving it a pseydo class that makes it only happen when its hovering. : is for psuedo class, :: is for psuedo item*/
+li:hover{
+  background-color: lightsalmon;
+  border: 1px solid dimgray;
+  padding: 5px;
+}
+
+li:hover a{
+  font-size: 24px;
+}
+
+input:focus { /* focus works when the text box is clicked on*/
+  border: 3px solid black;
+  padding: 5px;
+  outline: none;
+}
+
+a::after{ /*whatever is after the link will have whatever you add in the content*/
+  content:  "༼ つ ◕_◕ ༽つ"
+}
+
+.advanced-stuff{
+  width: 300px;
+  height: 300px;
+  background-color: fuchsia;
+  border: 3px solid black;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  
+  cursor:pointer;
+}
